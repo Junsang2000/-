@@ -1,0 +1,68 @@
+# 分流规则配置片段包含若干条分流规则；可通过资源引用的方式使用。
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
+ 
+DOMAIN-SUFFIX, heyzo.com, PROXY
+DOMAIN-SUFFIX, shuaigay.us, PROXY
+DOMAIN-SUFFIX, br.xhamster.com, PROXY
+host-suffix, loverslab.com, 国外网站
+host-suffix, getpocket.com, DIRECT
+host-keyword, firefox, DIRECT
+host-keyword, pocket, DIRECT
+host-suffix, ahushare.com, 国外网站
+host-suffix, store.steampowered.com, 美国
+host-suffix, notepad-plus-plus.org, 国外网站
+host-suffix, shuaigay.us, DIRECT
+host-suffix, xvideos, 美国
+host-suffix, wenku.zone, DIRECT
+host-suffix, tumbex.com, 美国
+host-suffix, rutracker.org, 国外网站
+host-suffix, gbstore.jp, 国外网站
+host-suffix, coat.co.jp, 国外网站
+host-suffix, thisvid.com, 国外网站
+host-suffix, tt1069.con, 国外网站
+host-suffix, gayfun.net, 国外网站
+host-suffix, boyfriendtv.com, 国外网站
+host-suffix, blogr.xxx, 国外网站
+host-suffix, 52pojie.cn, DIRECT
+host-suffix, suying999.net, 国外网站
+host-suffix, gdude-jp.com, 国外网站
+host-suffix, google.com.ph, 国外网站
+host-keyword, tiktok, 日本
+DOMAIN-KEYWORD, zhenbuka, DIRECT
+DOMAIN-KEYWORD, firefox, DIRECT
+DOMAIN-KEYWORD, getpocket, DIRECT
+DOMAIN-KEYWORD, namemc, PROXY
+DOMAIN-KEYWORD, littleskin, DIRECT
+DOMAIN-KEYWORD, curseforge, DIRECT
+
+
+
+;host, www.example.com, DIRECT
+
+# DIRECT：不走代理，即不通过代理节点直接连接
+# GLOBAL：全局代理节点 
+# REJECT：禁止连接，屏蔽对应网站 
+
+# 苹果服务
+# 国外网站
+# 国外影视
+# 国内视频
+# YouTube
+# Netflix
+# 终极清单
+# 广告拦截
+# 劫持防护
+
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# DOMAIN：域名匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# PROCESS-NAME：源进程名匹配
+# RULE-SET：Rule Provider规则匹配
+# MATCH：全匹配
+
