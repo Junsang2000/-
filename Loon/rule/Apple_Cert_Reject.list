@@ -1,0 +1,21 @@
+# 屏蔽苹果证书验证相关域名
+
+DOMAIN,ocsp.apple.com,REJECT
+
+DOMAIN,ocsp2.appe.com,REJECT
+
+DOMAIN,valid.apple.com,REJECT
+
+DOMAIN,crl.apple.com,REJECT
+
+DOMAIN,crl.entrust.net,REJECT
+
+DOMAIN,certs.apple.com,REJECT
+
+DOMAIN,appattest.apple.com,REJECT
+
+DOMAIN,vpp.itunes.apple.com,REJECT
+
+DOMAIN,appattest.apple.com,REJECT
+
+DOMAIN-SUFFIX,apple.comocsp.com,REJECT
